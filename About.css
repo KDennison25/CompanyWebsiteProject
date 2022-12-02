@@ -1,0 +1,13 @@
+#heading {
+    color: aqua;
+    font-size: 30px;
+}
+
+#desc {
+    color: green;
+    font-size: 25px;
+    font-weight: bolder;
+}
+* {
+    background-color: red;
+}
