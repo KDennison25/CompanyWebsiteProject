@@ -11,3 +11,21 @@
 * {
     background-color: red;
 }
+#transition {
+    width: 100px;
+    height: 100px;
+    border: 10px solid greenyellow;
+    align-items: center;
+}
+#transition:hover {
+    transition-property: all;
+    width: 250px;
+    height: 250px;
+    transition-duration: 5s;
+}
+
+#transition {
+    width: 100px;
+    height: 100px;
+    transition-duration: 5s;
+}
