@@ -5,9 +5,29 @@
 }
 #heading {
     color: blue;
+    font-size: 40px; 
 }
 #desc {
     font-size: 30px;
     color: orangered;
     font-family: 'Ubuntu', sans-serif; 
+}
+
+#nav1 {
+    display: flex;
+    display: grid;
+    justify-content: center; 
+    color: blue;
+    font-size: 20px;
+    text-decoration: underline;
+    grid-auto-columns: 20px;
+}
+#nav2 {
+    display: flex;
+    display: grid;
+    justify-content: center; 
+    color: blue;
+    font-size: 20px;
+    text-decoration: underline; 
+   grid-auto-columns: 30px;
 }
